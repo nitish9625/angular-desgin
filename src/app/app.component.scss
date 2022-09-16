@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.loginArea{
+    background: linear-gradient(90deg,#000000 50%,#3e1149 50%);
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+}
+.formPanel{
+    .fa-long-arrow-left {
+        font-size: 20px;
+        margin-top: 12px;
+    }
+
+}
+.loginArea{
+    position: relative;
+    .tagTitle{
+        display: flex;
+        align-items: center;
+        .img{
+            background: #d150ef;
+            padding: 8px 15px;
+            border-radius: 50%;
+            margin-right: 5px;
+            font-style: normal;
+        }
+        p{
+            margin-bottom: 0;
+            font-weight: 600;
+            font-size: 20px;
+            span{
+                color: #d150ef;
+            }
+        }       
+        
+    }
+    .form-group{
+        position: relative;
+        .form-control{
+            background-color:#a1a1a1;
+         }
+         i{
+            position: absolute;
+            right: 14px;
+            bottom: 12px;
+            color: #fbfafacc;
+         }
+    }
+    .btn-lg{
+        background: #e487fb;
+        display: block;
+        font-weight: 600;
+    }
+    
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    i{
+        margin-right: 10px;
+        font-size: 30px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+}
+.or-text{
+    position: relative;
+    text-align: center;
+    div{
+        border: 1px solid #fff;
+        position: absolute;
+        width: 100%;
+        top: 11px;
+        z-index: 9;
+    }
+    span{
+    z-index: 99999;
+    position: relative;
+    background: #000;
+    }
+}
+.login-button{
+    color: #d150ef;
+}
+.backgroun-image{
+    height: 100vh;
+    width: 100%;
+}
+
